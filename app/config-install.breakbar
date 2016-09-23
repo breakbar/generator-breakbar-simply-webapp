@@ -1,0 +1,4 @@
+#Install
+
+#First, you'll need to install Browsersync & Gulp as development dependencies.
+npm install browser-sync gulp --save-dev

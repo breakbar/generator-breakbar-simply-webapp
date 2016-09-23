@@ -1,0 +1,10 @@
+#--------------------------------------------------
+# Répertoire : /app/
+#--------------------------------------------------
+#Options +FollowSymlinks
+RewriteEngine on
+#RewriteBase /
+# internal routing to actual URL
+#RewriteRule ^prout /index.php[L]
+
+RewriteRule prout index.php

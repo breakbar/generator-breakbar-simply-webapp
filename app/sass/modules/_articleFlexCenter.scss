@@ -1,0 +1,35 @@
+
+.container__flex {
+  //margin-top: 170px;
+
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  overflow: hidden;
+
+  background: none;
+}
+
+.content__middle {
+
+  width: 100%;
+  min-height: 300px;
+  max-height: 800px;
+  min-width: 300px;
+  max-width: 1600px;
+  background: #99bfcf;
+  padding-bottom: 140px;
+  //padding-bottom: 60px;
+  //background: rgba(255,255,255,0.1);
+}
+
+@media only screen and (min-height: 960px) {
+  /* styles for browsers larger than 960px; */
+  .content__middle {
+    padding-bottom: 0px;
+    //padding-bottom: 60px;
+    //background: rgba(255,255,255,0.1);
+  }
+}

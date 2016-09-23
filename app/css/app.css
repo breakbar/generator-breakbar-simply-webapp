@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden; }
+
+.l-body {
+  margin: 0;
+  background-color: #7E8841; }
+
+.l-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 70px;
+  background-color: #c7c7c7; }
+
+.l-container {
+  position: relative;
+  margin-top: 70px;
+  width: 100%;
+  height: inherit;
+  background: #ff7b93; }
+
+.l-background--fox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+.header__flex {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #2c2c2c; }
+
+.header--flex--middle {
+  width: 100%;
+  min-width: 300px;
+  max-width: 700px;
+  background: #f0f0f0; }
+
+.container__flex {
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  overflow: hidden;
+  background: none; }
+
+.content__middle {
+  width: 100%;
+  min-height: 300px;
+  max-height: 800px;
+  min-width: 300px;
+  max-width: 1600px;
+  background: #99bfcf;
+  padding-bottom: 140px; }
+
+@media only screen and (min-height: 960px) {
+  /* styles for browsers larger than 960px; */
+  .content__middle {
+    padding-bottom: 0px; } }
+
+.content__middle__flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  overflow: auto; }
+
+.box {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  background-color: #f0f0f0; }

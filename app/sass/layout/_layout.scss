@@ -1,0 +1,42 @@
+// L-BODY
+.l-body{
+  margin: 0;
+  background-color: #7E8841;
+}
+
+// L-HEADER
+.l-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: #c7c7c7;
+}
+
+// L-CONTAINER
+.l-container{
+  position: relative;
+  margin-top: 70px;
+  width: 100%;
+  height: inherit;
+  background: #ff7b93;
+}
+
+// L-FOOTER
+
+
+// L-background
+.l-background--fox{
+  position: fixed;
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: -1;
+}

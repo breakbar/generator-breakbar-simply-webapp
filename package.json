@@ -1,0 +1,48 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "spacework to manage website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.16.0",
+    "connect-modrewrite": "^0.9.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-concat": "^2.6.0",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-breakbar:breakbar/workflow.git"
+  },
+  "keywords": [
+    "breakbar",
+    "workflow",
+    "manage",
+    "website",
+    "vhost"
+  ],
+  "author": "BreakBar",
+  "license": "SEE LICENCE IN LICENCE.txt"
+}

@@ -1,0 +1,10 @@
+$lindorie:#000000;
+
+@mixin theme($color){
+  width: 100%;
+  height: 70px;
+  background: $color;
+  color: white;
+}
+
+.test{@include theme($lindorie)}
